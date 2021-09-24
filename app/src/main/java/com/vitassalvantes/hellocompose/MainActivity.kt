@@ -109,6 +109,22 @@ class MainActivity : ComponentActivity() {
     }
 
     @Preview(
+        name = "Message in Normal Mode",
+        showBackground = true
+    )
+    @Preview(
+        name = "Message in Dark Mode",
+        showBackground = true,
+        uiMode = Configuration.UI_MODE_NIGHT_YES
+    )
+    @Composable
+    fun PreviewMessageCard() {
+        HelloComposeTheme {
+            MessageCard(msg = Message("Vitas", "I love Android Development!"))
+        }
+    }
+
+    @Preview(
         showSystemUi = true,
         name = "Normal Mode"
     )
