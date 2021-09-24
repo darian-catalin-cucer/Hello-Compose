@@ -8,6 +8,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -52,12 +53,19 @@ class MainActivity : ComponentActivity() {
                 Text(
                     text = msg.author,
                     color = MaterialTheme.colors.secondaryVariant,
+                    style = MaterialTheme.typography.subtitle2
                 )
 
                 // Add a vertical space between the author and message texts
                 Spacer(modifier = Modifier.height(4.dp))
 
-                Text(text = msg.body)
+                Surface(shape = MaterialTheme.shapes.medium, elevation = 1.dp) {
+                    Text(
+                        text = msg.body,
+                        style = MaterialTheme.typography.body2,
+                        modifier = Modifier.padding(all = 4.dp)
+                    )
+                }
             }
         }
     }
