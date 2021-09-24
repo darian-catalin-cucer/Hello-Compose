@@ -1,11 +1,9 @@
-# Hello-Compose
+# Hello Compose
 
-[![license](https://img.shields.io/github/license/VitasSalvantes/android-basics-kotlin-dessert-clicker-app)](https://github.com/VitasSalvantes/android-basics-kotlin-dessert-clicker-app/blob/master/LICENSE)
-[![current version](https://img.shields.io/badge/current_version-1.0-green)](#DessertClicker)
+[![current version](https://img.shields.io/badge/current_version-1.0-green)](#Hello-Compose)
 
-This is a simple clicker app for Android that was created as part of
-course [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
-by Google.
+This is a simple list app for Android that was created as part
+of [Jetpack Compose Tutorial](https://developer.android.com/jetpack/compose/tutorial) by Google.
 
 ## Table of contents
 
@@ -19,8 +17,7 @@ by Google.
 
 ## How does it work
 
-The user clicks on the dessert icon. After a certain number of clicks, the image changes. The user
-also sees the number of his “orders” and the total amount, which he can share.
+The user opens the app and sees a list of "messages".
 
 ## Screenshots
 
@@ -30,21 +27,9 @@ At the beginning:
 
 <img src="screenshots/screenshot_start.png" alt="screenshot_start" style="width:231px;height:500px;">
 
-After 5 clicks on the image:
+After click on the message:
 
-<img src="screenshots/screenshot_5_clicks.png" alt="screenshot_5_clicks" style="width:231px;height:500px;">
-
-After 20 clicks on the image:
-
-<img src="screenshots/screenshot_20_clicks.png" alt="screenshot_20_clicks" style="width:231px;height:500px;">
-
-After 50 clicks on the image:
-
-<img src="screenshots/screenshot_50_clicks.png" alt="screenshot_50_clicks" style="width:231px;height:500px;">
-
-After click on the "share" button:
-
-<img src="screenshots/screenshot_share.png" alt="screenshot_share" style="width:231px;height:500px;">
+<img src="screenshots/screenshot_full_message.png" alt="screenshot_full_message" style="width:231px;height:500px;">
 
 ## Technologies
 
@@ -62,16 +47,16 @@ After click on the "share" button:
 
 ## Development progress
 
-Development of the project began and completed on **September 19, 2021**.
+Development of the project began and completed on **September 24, 2021**.
 
 *Since I am developing this project mainly alone, I see no reason to
 use [Trello](https://trello.com/).*
 
 ## Project statistics
 
-[![wakatime](https://wakatime.com/badge/github/VitasSalvantes/android-basics-kotlin-dessert-clicker-app.svg)](https://wakatime.com/badge/github/VitasSalvantes/android-basics-kotlin-dessert-clicker-app)
+[![wakatime](https://wakatime.com/badge/github/VitasSalvantes/Hello-Compose.svg)](https://wakatime.com/badge/github/VitasSalvantes/Hello-Compose)
 
-See more on [WakaTime](https://wakatime.com/@VitasSalvantes/projects/aenevacmlr).
+See more on [WakaTime](https://wakatime.com/@VitasSalvantes/projects/dgmzijvujy).
 
 ## How to install
 
@@ -82,7 +67,4 @@ See more on [WakaTime](https://wakatime.com/@VitasSalvantes/projects/aenevacmlr)
 
 ## How to contribute
 
-The project was created as part of
-course [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
-by Google and does not provide for contribution.
-
+The project is very simple and does not provide for contribution.
