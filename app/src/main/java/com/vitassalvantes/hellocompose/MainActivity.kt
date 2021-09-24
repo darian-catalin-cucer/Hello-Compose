@@ -1,5 +1,6 @@
 package com.vitassalvantes.hellocompose
 
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -23,7 +24,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             HelloComposeTheme {
-                MessageCard(Message("Android", "Hello Compose!"))
+                MessageCard(
+                    Message(
+                        "Colleague",
+                        "Hey, take a look at Jetpack Compose, It's great!"
+                    )
+                )
             }
         }
     }
@@ -70,7 +76,15 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    @Preview
+    @Preview(
+        showSystemUi = true,
+        name = "Normal Mode"
+    )
+    @Preview(
+        uiMode = Configuration.UI_MODE_NIGHT_YES,
+        showSystemUi = true,
+        name = "Dark Mode"
+    )
     @Composable
     fun PreviewMessageCard() {
         HelloComposeTheme {
